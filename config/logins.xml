@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login:Logins xmlns:login="http://kc868.joeysoft.com/xsd/login.xsd" lastLogin="hificat.vicp.net">
+  <login autoLogin="false" loginSync="false" password="25D55AD283AA400AF464C76D713C07AD" IP="hificat.net.vicp" rememberPassword="true" user="0" port="5000"/>
+  <login autoLogin="false" loginSync="true" password="25D55AD283AA400AF464C76D713C07AD" IP="hificat.vicp.net" rememberPassword="true" user="0" port="5000"/>
+  <login autoLogin="false" loginSync="false" password="25D55AD283AA400AF464C76D713C07AD" IP="115.195.128.7" rememberPassword="true" user="0" port="5000"/>
+  <login autoLogin="false" loginSync="false" password="8611E381982BC236CDE44F5687056EC7" IP="123wuzhouhuai.eicp.net" rememberPassword="true" user="0" port="5002"/>
+  <login autoLogin="false" loginSync="false" password="25D55AD283AA400AF464C76D713C07AD" IP="122.234.246.196" rememberPassword="true" user="0" port="5002"/>
+</login:Logins>
