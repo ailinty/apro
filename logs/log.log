@@ -12934,3 +12934,31 @@ channelDisconnected
 2013-03-15 14:11:50(PacketProcessor.java:203) [com.joeysoft.kc868.client.support.PacketProcessor]-DEBUG - 
 开始处理错误通知包，错误类型：远程连接已关闭
 
+2013-03-17 16:32:05(DBConnection.java:41) [com.joeysoft.kc868.db.DBConnection]-DEBUG - 
+db connectioned
+
+2013-03-17 16:33:43(DBConnection.java:41) [com.joeysoft.kc868.db.DBConnection]-DEBUG - 
+db connectioned
+
+2013-03-17 16:34:00(KC868ClientHandler.java:28) [com.joeysoft.kc868.client.KC868ClientHandler]-DEBUG - 
+[id: 0x019a32e0] OPEN
+
+2013-03-17 16:34:00(KC868ClientHandler.java:61) [com.joeysoft.kc868.client.KC868ClientHandler]-ERROR - 
+Unexpected exception from downstream.
+
+java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:30)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:487)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:140)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:103)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:60)
+	at org.jboss.netty.channel.Channels.connect(Channels.java:541)
+	at org.jboss.netty.channel.AbstractChannel.connect(AbstractChannel.java:210)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:227)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:188)
+	at com.joeysoft.kc868.client.KC868Client.startClient(KC868Client.java:73)
+	at com.joeysoft.kc868.client.KC868Client.run(KC868Client.java:45)
+	at java.lang.Thread.run(Thread.java:619)
+2013-03-17 16:34:00(KC868ClientHandler.java:28) [com.joeysoft.kc868.client.KC868ClientHandler]-DEBUG - 
+[id: 0x019a32e0] CLOSED
+
